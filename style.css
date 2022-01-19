@@ -1,0 +1,185 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    background: #1A0C63;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: aquamarine;
+    font-size: 30px;
+    padding: 10px 10px;
+    line-height: 80px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 15px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0px;
+}
+
+nav ul li a{
+    color: aquamarine;
+    
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+a:hover{ 
+    background-color: #3610F3;
+}
+
+.willkommen{
+    background-color: #1b048f;
+    color: aliceblue;
+    text-align: center;
+    padding-right: 20px;
+   padding-top: 30px;
+    padding-bottom: 80px;
+    padding-left: 15px;
+    font-size: 18px;
+    border-bottom: 5px;
+}
+
+span::before{
+    color: aquamarine;
+    content:'';
+    animation: animate infinite 8s;
+}
+
+@keyframes animate{
+    0%{
+        content: 'Baustellenreinigung';
+    }
+    60%{
+       content: 'Zinshausreinigung'; 
+    }
+
+    100%{
+        content: 'Gebäudereinigung';
+    }
+}
+
+.foto{
+    float: left;
+    width: 275px;
+    height: 170px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.unternehmen{
+    background-color: aliceblue;
+    color: #240aa5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 25px;
+    border-top: 25px;
+    border-left: 35px;
+    border-right: 35px;
+    border-style: solid;
+    border-color: #2c09db;
+
+}
+
+#wer-wir-sind{
+    align-content: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;
+}
+
+
+
+.baustelle{
+    color: aliceblue;
+    padding: 15px;
+    
+}
+
+.zinshaus{
+    color: aliceblue;
+    padding: 15px;
+    text-align: right;
+}
+
+.leistungen{
+    background-color: #3610F3;
+}
+
+ul{
+    list-style-type: circle;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+li{
+    padding-bottom: 3px;
+}
+
+ul li{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+h3{
+    padding-top: 5px;
+}
+
+.gründer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 50px;
+}
+
+img{
+    width: 33%;
+    }
+
+    .contact-box{
+        width: auto;
+        background-color: white;
+        box-shadow: 0 0 20px #999;
+        top: 25px;
+        left: 25px;
+        transform: translate(-25px, -25px);
+      }
+
+  form{
+      margin: 25px;
+  }    
+
+.input-field{
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(5, 27, 20);
+    border-radius: 10px;
+
+}
